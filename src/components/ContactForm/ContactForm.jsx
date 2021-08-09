@@ -10,7 +10,7 @@ export default function ContactForm({onSubmit}) {
    const  numberInputId = uuidv4();
     
   const  handleChange = e => {
-const { name, value } = e.currentTarget;
+  const { name, value } = e.currentTarget;
       
 switch(name){
     case "name":
